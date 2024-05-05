@@ -31,3 +31,4 @@ Notes:
 - The charts for data anaylsis can be found in Examples/
 - The fine-tuned model can be found in /Examples nad /megajajo/phi-1_5-finetuned on hugging face
 - I was parsing "https://github.com/JetBrains/kotlin" repository, part of the parsed data can be found in /Examples
+- for Python evaluation I was using CodeXGLUE Python method completion dataset
