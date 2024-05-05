@@ -18,7 +18,7 @@ Summary of Author's results:
 - While evaluating model on python, I was not using the docstring, I wanted python to go head to head with kotlin, thus passing only the name of the function as a prompt
 - Data analysis:
     - Model improved on both Kotlin data (rogueLsum: 21%, rogueL: 20.6%, rogue2: 64%, rogue1: 22,6%) and Python data (rogueLsum: 6%, rogueL: 8.5%, rogue2: 4.4%, rogue1: 7,6%) despite not much compute
-    - Model was performing nearly 2x better on Python than on Kotlin - which was expected, as it was pretrained on unproportionally much more data than fine-tuned on
+    - Model was performing 2x better on Python than on Kotlin - which was expected, as it was pretrained on unproportionally much more data than fine-tuned on
     - Increases in Python performance are a little bit suprising - I was expecting less. Maybe that is because, even tough Phi was trained to complete Python methods, it was trained to do so in a "code completion format", which I was not utilising by prompting only function names
 
 
