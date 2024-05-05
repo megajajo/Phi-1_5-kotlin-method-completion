@@ -8,6 +8,7 @@ The pipeline for fine-tuning phi-1_5 for method completion in Kotlin is the foll
      - push the model into hf, for easy later use
 - Evaluate:
      - Run all the cells in evaluate.ipynb
+     - add any charts as desired (sample code is provided)
  
 
 
